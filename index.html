@@ -3,95 +3,102 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="/style.css">
-    <script src="http://kit.fontawesome.com/bc127307d9.js"></script>
+    <script src="https://kit.fontawesome.com/4fb14e23f7.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="./style.css">
     <title>My Portfolio</title>
 </head>
-<link rel="stylesheet" href="style.css">
-
-<body >
-<header id="header">
-    <div id="brand">
-        <img src="./images/logo.png" alt="brand logo">
-        
-    </div>
-    <nav id="navbar">
-        <ul>
-            <li class="navItem"><a href="#home">home</a></li>
-            <li class="navItem"><a href="#services">services</a></li>
-            <li class="navItem"><a href="#about">about</a></li>
-            <li class="navItem"><a href="#skills">skills</a></li>
-            <li class="navItem"><a href="#portfolio">portfolio</a></li>
-            <li class="navItem"><a href="#contact">contact</a></li>
-        </ul>
-    </nav>
-</header>
-
-<main>
-    <!-- home section -->
-    <section id="#home">
-        
-        <img src="./images/man-01.png" alt="my picture"style="float: right;"><br><br><br><br><br><br><br>
-       <div style="text-align: center;">
-        <a href="https://www.facebook.com/amazon" target="_blank">
-        <i class="fab fa-facebook"></i></a>
-        <a href="https://www.instagram.com/amazon" target="_blank">
-        <i class="fab fa-instagram"></i></a>
-        <a href="https://fa-twitter.com/Hot_Kid4" target="_blank">
-         <i class="fab fa-twitter"></i></a>
-        <a href="https://www.pinterest.com/amazon" target="_blank">
-         <i class="fab fa-pinterest"></i></a>
-        <a href="https://www.behance.com/amazon" target="_blank">
-        <i class="fab fa-behance"></i></a>
-        
-       </div>
-
-        </a>
-
-        <h2>
-            I am Patrick Okechukwu
-        </h2>
-        <p>
-            I'm Patrick, a professional web developer with long time experience in this field
-        </p>
-        <button><a href="#portfolio">Portfolio</a></button>
-        <button><a href="https://www.youtube.com/watch?time_continue=33&v=W-j4QGAgNu8">youtube</a></button>
-
-       </div>
-
-        <br><br><br><br><br><br><br><br><br><br><br>
-
-    </section>
-
-    <!-- services section -->
-    <section id="#services">
-        <div style="text-align: center;">
-        <h5>Services</h5>
-        <h2>My Services</h2>
-        <p>We offer the best service there is at CreateCo</p>
-        <div>
-            <h2>Web Development</h2>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Esse numquam beatae eos blanditiis, fugit cupiditate repudiandae iure quia vel modi doloremque reprehenderit! Ratione eum, distinctio quos nobis maxime atque aliquam?</p>
-
-            <h2>Web Design</h2>
-            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Sed quis quibusdam placeat atque quaerat, officia error molestias suscipit at illo quae, doloribus ab fugit eum aperiam vitae neque fugiat iusto.</p>
-
-            <h2>Video Editing</h2>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Totam suscipit rem placeat. Similique nam deleniti asperiores corporis optio beatae quod amet dicta ipsam et culpa iusto ab, quidem eius rerum?</p>
-
-            <h2>Photography</h2>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut totam odio ex, perspiciatis illo autem earum. Architecto eum voluptate nostrum illum distinctio quae nisi, totam non, facere ex blanditiis laborum!</p>
-
-            <h2>App developing</h2>
-            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Beatae nobis blanditiis impedit? Asperiores sint voluptate pariatur fuga ab veritatis quidem facere molestiae quaerat, nostrum eveniet nisi exercitationem rerum itaque quasi.</p>
-
-            <h2>SOE Expert</h2>
-            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Incidunt ullam modi, cumque, adipisci veniam explicabo minus laudantium alias nesciunt delectus voluptatem exercitationem beatae provident possimus, dolore asperiores totam iusto amet.</p>
+<body>
+    <header id="topHeader" class="horizontal">
+        <div id="brand">
+            <img id="brandLogo" src="./images/logo.png" alt="portfolio logo">
         </div>
+        <nav id="navbar">
+            <ul class="menu horizontal">
+                <li class="navItem"><a href="#home">Home</a></li>
+                <li class="navItem"><a href="#services">Services</a></li>
+                <li class="navItem"><a href="#about">About</a></li>
+                <li class="navItem"><a href="#skills">Skills</a></li>
+                <li class="navItem"><a href="#portfolio">Portfolio</a></li>
+                <li class="navItem"><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
 
-        </div>
-        <br><br><br><br><br><br><br><br><br><br><br>
+    <main>
+        <!-- home section -->
+        <section id="home" class="horizontal">
+            <div id="letfcon">
+                <div id="socialIcons" class="horizontal">
+                    <div class="icon"><i class="fab brands fa-facebook-f"></i></div>
+                    <div class="icon"><i class="fab brands fa-twitter"></i></div>
+                    <div class="icon"><i class="fab brands fa-pinterest-p"></i></div>
+                    <div class="icon"><i class="fab brands fa-instagram"></i></div>
+                    <div class="icon"><i class="fab brands fa-behance"></i></div>
+                </div>
+                <div id="text">
+                    <h1 class="sectionTitle">I am Patrick</h1>
+                    <p class="sectionP">I'm Patrick, professional web developer with long time experience in this field​</p>
+                </div>
+                <div id="actionBtn">
+                    <button class="icon portfolioBtn">My Portfolio</button>
+                    <button id="playBtn"><i class="fa-solid fa-play"></i></button>
+                </div>
+            </div>
+
+            <div id="rightcon">
+                <img src="./images/man-01.png" alt="myself">
+            </div>
         </section>
+
+        <!-- services section -->
+        <section id="services">
+            <div id="grid">
+                <div class="horizontal">
+                    <div class="card">
+                        <h2>Web Development
+                        </h2>
+                       <p>Lorem Ipsum is simply dummy text of the printing typesetting industry. simply dummy</p> 
+                    </div>
+                    <div class="card">
+                        <h2>
+                            Web Design
+                        </h2>
+                        <p>Lorem Ipsum is simply dummy text of the printing typesetting industry. simply dummy</p>
+                    </div>
+                    <div class="card">
+                        <h2>
+                            Video Editing
+                        </h2>
+                        <p>Lorem Ipsum is simply dummy text of the printing typesetting industry. simply dummy</p>
+                    </div>
+                </div>
+                <div class="horizontal">
+                    <div class="card">
+                        <h2>
+                            Photography
+                        </h2>
+                        <p>Lorem Ipsum is simply dummy text of the printing typesetting industry. simply dummy</p>
+                    </div>
+                    <div class="card">
+                        <h2>
+                            App Developing
+                        </h2>
+                        <p>
+                            Lorem Ipsum is simply dummy text of the printing typesetting industry. simply dummy
+                        </p>
+                    </div>
+                    <div class="card">
+                        <h2>
+                            SOE Expert
+                        </h2>
+                        <p>
+                            Lorem Ipsum is simply dummy text of the printing typesetting industry. simply dummy    
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
     <!-- about section  -->
     <section id="#about">
         <div style="text-align: center;">
@@ -140,7 +147,7 @@
    <textarea name="message" id="" cols="30" rows="10" placeholder="message"></textarea>
 
    <br> <br>
-   <input type="Submit" value="Submit">
+   <input type="Submit"value="Submit">
 </form>
     </main>
 
