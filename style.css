@@ -123,3 +123,16 @@
 body {
     background-color: #24263b;
 }
+
+#servicebody {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.card:hover{
+    background-color: #ff4a57;
+}
+
+.cardicon{
+    font-size: 40px;
+}
